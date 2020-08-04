@@ -26,4 +26,7 @@ while running:
     pygame.display.update()
   clock.tick(60)  
   if key[pygame.K_LEFT] and self.x > 0:
+self.image = playerCharacter.image
+self.image = pygame.transform.scale(self.image,(50,50))
+
 
