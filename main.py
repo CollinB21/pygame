@@ -29,4 +29,4 @@ while running:
 self.image = playerCharacter.image
 self.image = pygame.transform.scale(self.image,(50,50))
 
-
+(str(input()
